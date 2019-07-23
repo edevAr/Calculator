@@ -1,0 +1,44 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--custom styles-->
+    <style name="button_style">
+        <item name="android:color">@color/color_button</item>
+        <item name="android:layout_height">@dimen/height_button</item>
+        <item name="android:layout_width">@dimen/width_button</item>
+    </style>
+    <style name="number_style">
+        <item name="android:color">@color/colorBlack</item>
+        <item name="android:layout_height">@dimen/height_number</item>
+        <item name="android:layout_width">@dimen/width_number</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="screen_style">
+        <item name="android:hint">0.</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/height_screen</item>
+        <item name="android:layout_marginStart">@dimen/margin_start</item>
+        <item name="android:layout_marginEnd">@dimen/margin_end</item>
+        <item name="android:paddingStart">@dimen/padding_start</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@color/colorAccent</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style>
+    <style name="gridView_style">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:numColumns">auto_fit</item>
+        <item name="android:columnWidth">80dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+    </style>
+
+</resources>

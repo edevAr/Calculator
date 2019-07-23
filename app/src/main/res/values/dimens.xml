@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--custom dimens-->
+    <dimen name="width_button">100dp</dimen>
+    <dimen name="height_button">100dp</dimen>
+
+    <dimen name="width_number">50sp</dimen>
+    <dimen name="height_number">50sp</dimen>
+
+    <dimen name="padding_start">10dp</dimen>
+    <dimen name="margin_start">5dp</dimen>
+    <dimen name="margin_end">5dp</dimen>
+    <dimen name="height_screen">50dp</dimen>
+
+</resources>
